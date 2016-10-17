@@ -8,6 +8,6 @@ script: bash ./deploy/deploy.sh
 
 env:
   global:
-  - ENCRYPTION_LABEL: "6e1d486f421e"
+  - ENCRYPTION_LABEL: "9c9ce64c70c0"
   - COMMIT_AUTHOR_EMAIL: "ucilug-travisci@zhaofeng.li"
 
