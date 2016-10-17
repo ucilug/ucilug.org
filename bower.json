@@ -1,0 +1,21 @@
+{
+  "name": "ucilug.org",
+  "description": "Homepage of UCI LUG",
+  "main": "",
+  "authors": [
+    "Zhaofeng Li"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://ucilug.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}
