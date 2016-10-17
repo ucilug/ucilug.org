@@ -2,7 +2,7 @@
 # We can assume that the PWD is the repo dir
 
 # Copy everything to out/
-cp -r `find . -maxdepth 1 ! -name "out"` "out"
+cp -r `find . -maxdepth 1 -! \( -name "out" -o -name ".*" -o -name "deploy" \)` "out"
 
 # Delete unused files
 rm -f out/.gitignore
