@@ -7,6 +7,12 @@ p {
 	font-size: larger;
 }
 
+#contact a {
+	color: inherit;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
 .proper {
 	font-style: normal;
 	font-weight: bold;
