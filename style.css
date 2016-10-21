@@ -3,9 +3,17 @@ body {
 	padding: 0;
 }
 
+p {
+	font-size: larger;
+}
+
 .proper {
 	font-style: normal;
 	font-weight: bold;
+}
+
+.ircchan {
+	font-family: monospace;
 }
 
 .page {
